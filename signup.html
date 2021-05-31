@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up - Lá&Cá</title>
+	<link rel="stylesheet" type="text/css" href="estilo2.css">
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+	<body>
+		<div class="sign-up-form">
+			<h1> Sign Up</h1>
+			<form method ="post" action="cadastro.html">
+			<input class="input-box" type="email" name="input-box" id="email" placeholder="Seu email" required="required">	
+			<input class="input-box" type="password" name="input-box" id="password" placeholder="Sua senha" required="required">
+		
+			<p><span><input type="checkbox" id="chktermo" onclick="checktermo()"></span> Eu concordo com os termos de uso</p>
+		
+			<button type="button" class="sign-btn" id="btnsignup" disabled=true onclick="logar()">Sign up</button>
+			<hr>
+			<p class="or">OU</p>
+			<button type="button" class="twitter-btn">Login with twitter</button>
+			<p>Você já possui uma conta? <a href="#">Log in</a> </p>
+			</form>
+
+		</div>
+
+	</body>
+</html>
