@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lá&Cá</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo3.css">
+	</head>
+	<body>
+		<div id="area-cabecalho"> <!-- Começo do cabeçalho-->
+			<div class="logo">
+				<img src="imagens/Logo.png" width="200px">
+			</div>
+			 <div id="area-logo">
+				<h1>Lá<span class="branco">&</span>Cá</h1>
+			</div>
+			<div id="area-menu">
+                <a href="index.html">Home</a>
+                <a href="index.html">Serviços</a>
+                <a href="index.html">Promoções</a>
+                <a href="index.html">Sobre a Lá&Cá</a>
+                <a href="lgpd.html">LGPD</a>
+			</div>
+		</div> <!-- Fim do cabeçalho-->
+		<div id="area-principal"> <!-- Começo da área principal-->
+			<div id="area-postagens">
+				<!-- Abertura da postagem 1-->
+				<div class="postagem">
+					<img width="620px" src="imagens/cadastro.png">
+							<form>
+						<legend>Informações pessoais</legend>
+                        Nome: <input class="input-box" type="text" name="input-box" id="name" placeholder="Nome completo"><br><br>	
+			            E-mail: <input class="input-box" type="email" name="input-box" id="email" placeholder="Digite seu e-mail"><br><br>
+                        Data de nascimento: <input type="date" name="input-box" id="born"><br><br>
+                        CPF: <input class="input-box" type="text" name="input-box" id="cpf" maxlength="11"><br><br>
+                        <label  for="estado">Estado que reside: </label>
+                        <select>
+                            <option value="">Acre</option>
+                            <option value="">Alagoas</option>
+                            <option value="">Amapá</option>
+                            <option value="">Amazonas</option>
+                            <option value="">Bahia</option>
+                            <option value="">Ceará</option>
+                            <option value="">Distrito Federal</option>
+                            <option value="">Espírito Santo</option>
+                            <option value="">Goiás</option>
+                            <option value="">Maranhão</option>
+                            <option value="">Mato Grosso</option>
+                            <option value="">Mato Grosso do Sul</option>
+                            <option value="">Minas Gerais</option>
+                            <option value="">Pará</option>
+                            <option value="">Paraíba</option>
+                            <option value="">Paraná</option>
+                            <option value="">Pernambuco</option>
+                            <option value="">Piauí</option>
+                            <option value="">Rio de Janeiro</option>
+                            <option value="">Rio Grande do Norte</option>
+                            <option value="">Rio Grande do Sul</option>
+                            <option value="">Rondônia</option>
+                            <option value="">Roraima</option>
+                            <option value="">Santa Catarina</option>
+                            <option value="">São Paulo</option>
+                            <option value="">Sergipe</option>
+                            <option value="">Tocantins</option>
+                        </select>
+                        <br><br>
+                        Disponilidade para frete interestadual? <input type="radio" class="input-box" name="disponibilidade" value="sim"> Sim
+                        <input type="radio" name="disponibilidade" value="nao"> Não
+                        <br>
+                        <br>
+
+                      
+               <legend>Infomações do veículo</legend>
+                    <select name="tipo" id="veiculo" placeholder="Escolha seu veículo">
+                            <option value="">Escolha o tipo de veículo</option>
+                            <option value="moto">Motocicleta</option>
+                            <option value="carro hatch">Carro hatch (sem mala)</option>
+                            <option value="carro sedan">Carro sedan</option>
+                            <option value="carro pickup">Carro com caçamba</option>
+                            <option value="caminhao1">Caminhão pequeno</option>
+                            <option value="caminhao2">Caminhão médio ou grande</option>
+                    </select>
+                    Placa: <input type="text" id="placa" placeholder="Digite sua placa">
+                    <br>
+                    <br>
+
+                 
+                    <p>Digite a categoria da sua CNH:</p>
+                    CNH A <input type="checkbox" name="cnh" value="A">
+                    CNH B <input type="checkbox" name="cnh" value="B"> 
+                    CNH C <input type="checkbox" name="cnh" value="C"> 
+                    CNH D <input type="checkbox" name="cnh" value="D"> 
+                    CNH E <input type="checkbox" name="cnh" value="E"><br><br>
+                    RENAVAM: <input type="text" id="renavam"><br>
+                    <br>
+                
+                <input class="prosseguir" type="button" value="Prosseguir" onclick="window.location='lgpd.html';">
+            </form>
+    </main>
+    <footer>
+        Todos os direitos reservados
+    </footer>
+</body>
+</html>
